@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Start Page</title>
+<link rel="icon" href="data:,">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #356;
+  padding: 15px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 400px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: 0;
+  padding: 10;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 400px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #234;
+  padding: 2px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Sensor Monitoring Start Page</h2>
+</header>
+
+<section>
+ <nav>
+    <h3>Sensor516</h3>
+    <ul>
+      <li><a href="/sensor516">values</a></li>
+      <li><a href="/sensor516/plots">plots</a></li>
+    </ul>
+    <h3>Sensor15</h3>
+     	<ul>
+      	<li><a href="/sensor15">values</a></li>
+      	<li><a href="/sensor15/plots">plots</a></li>
+     	</ul>
+    <h3>Sensor16</h3>
+	<ul>
+	<li><a href="#">values</a></li>
+	<li><a href="#">plots</a></li>
+	</ul>
+  </nav>
+  
+  <article>
+    <h1>How to use</h1>
+    <p>Click on the values link next to the sensor ID to obtain the numerical data from the specified sensor (the most recent 100 samples). Click on the plots link to obtain current plots from the specified sensor.</p>
+    <p>More details to be added here.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Example created by Jin Zhu @2023 </p>
+</footer>
+
+</body>
+</html>
