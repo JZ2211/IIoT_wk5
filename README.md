@@ -1,7 +1,7 @@
 # IIoT_module6
-IIoT Workshop - Module 6 
-Case Study 1 Example Code
-![image](https://github.com/JZ2211/IIoT_Case1/assets/100505718/ceb4a08b-a487-4068-b82d-bbf9e66196a6)
+IIoT Workshop - Module 6 Case Study 1 Example Code
+
+<img src="https://github.com/JZ2211/IIoT_Case1/assets/100505718/ceb4a08b-a487-4068-b82d-bbf9e66196a6" width="600">
 
 ## Steps in a short list:
 1.	RPi board should have wifi function. Check your RPi board model using command:
