@@ -3,8 +3,8 @@ IIoT Workshop - Module 6
 Case Study 1 Example Code
 
 Steps in a short list:
-1.	Check your RPi board model using command:
-  #cat  /proc/cpuinfo
+1.	RPi board should have wifi function. Check your RPi board model using command:
+  cat  /proc/cpuinfo
 2.	Verify the system clock synchronization. System clock needs to be synchronized:
   timedatectl
 3.	Check the python version. Requires python 3.7 version or above. Please note the double dash:
