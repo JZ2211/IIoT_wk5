@@ -4,7 +4,7 @@ Case Study 1 Example Code
 
 Steps in a short list:
 1.	Check your RPi board model using command:
-  cat  /proc/cpuinfo
+  #cat  /proc/cpuinfo
 2.	Verify the system clock synchronization. System clock needs to be synchronized:
   timedatectl
 3.	Check the python version. Requires python 3.7 version or above. Please note the double dash:
