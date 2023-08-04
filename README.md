@@ -32,7 +32,7 @@ Case Study 1 Example Code
    pip install plotly 
    pip install pandas
 ```
-11.	If there is an error to import pandas: ```libf77blas.so.3: cannot open shared object file: No such file or directory.``` See reference at: https://numpy.org/devdocs/user/troubleshooting-importerror.html), please run: 
+11.	If there is an error to import pandas: ```libf77blas.so.3: cannot open shared object file: No such file or directory.``` Please run (See reference at: https://numpy.org/devdocs/user/troubleshooting-importerror.html): 
   ```sudo apt-get install libatlas-base-dev```
 1.	Download case1 package from github in the Raspberry Pi (assume to the home directory /home/pi/):
 ```
