@@ -27,7 +27,7 @@ Case Study 1 Example Code
 ```  
 8.	check if Flask is installed:  ```pip show flask```
 1.	if not, please install flask before continue: ```sudo apt install python3-flask```
-1.	install plotly and pandas (you may need to use pip3 if the Raspberry Pi OS is old): 
+1.	install plotly and pandas (or pip3 if the default is not python3): 
   ```
    pip install plotly 
    pip install pandas
