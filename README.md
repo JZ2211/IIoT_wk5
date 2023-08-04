@@ -12,16 +12,13 @@ Steps in a short list:
 4.	Install or update setup tools for python:
   sudo pip3 install --upgrade setuptools
 5.	In order to use CircuitPython, we need to install a library called adafruit_blinka. We can complete it by running the following script:
-  sudo pip3 install --upgrade adafruit-python-shell
-
-  wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py 
-  
-  sudo python3 raspi-blinka.py
-  
+    sudo pip3 install --upgrade adafruit-python-shell
+    wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py 
+    sudo python3 raspi-blinka.py
 it may take a while to complete the installation. Please be patient. Choose Y to Reboot Now after the installation.  
-7.	install BME280 library using command: 
+6.	install BME280 library using command: 
   sudo pip install adafruit-circuitpython-bme280 
-8.	download example code and check if it works:
+7.	download example code and check if it works:
   wget https://raw.githubusercontent.com/JZ2211/IIoT_module5/ main/demo_bme280.py 
   
   wget https://raw.githubusercontent.com/JZ2211/IIoT_module5/ main/savedata_locally.py 
