@@ -3,13 +3,13 @@ IIoT Workshop - Module 6
 Case Study 1 Example Code
 
 Steps in a short list:
-1.	Check your RPi board model using command
+1.	Check your RPi board model using command:
   cat  /proc/cpuinfo
-2.	Verify the system clock synchronization. System clock needs to be synchronized.
+2.	Verify the system clock synchronization. System clock needs to be synchronized:
   timedatectl
 3.	Check the python version. Requires python 3.7 version or above. Please note the double dash:
   python –version  
-4.	Install or update setup tools for python
+4.	Install or update setup tools for python:
   sudo pip3 install --upgrade setuptools
 5.	In order to use CircuitPython, we need to install a library called adafruit_blinka. We can complete it by running the following script:
   sudo pip3 install --upgrade adafruit-python-shell 
@@ -18,7 +18,7 @@ Steps in a short list:
 it may take a while to complete the installation. Please be patient. Choose Y to Reboot Now after the installation.  
 6.	install BME280 library using command: 
   sudo pip install adafruit-circuitpython-bme280 
-7.	download example code and check if it works
+7.	download example code and check if it works:
   wget https://raw.githubusercontent.com/JZ2211/IIoT_module5/ main/demo_bme280.py 
   wget https://raw.githubusercontent.com/JZ2211/IIoT_module5/ main/savedata_locally.py 
   python demo_bme280.py
