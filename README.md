@@ -17,17 +17,17 @@ Case Study 1 Example Code
     wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
     sudo python3 raspi-blinka.py
 ```
-6.	install BME280 library using command: 
+6.	Install BME280 library using command: 
   ```sudo pip install adafruit-circuitpython-bme280```
-7.	download example code and check if it works:
+7.	Download the example code, connect BME280 to the RPi, and check if it works:
 ```
    wget https://raw.githubusercontent.com/JZ2211/IIoT_module5/main/demo_bme280.py
    wget https://raw.githubusercontent.com/JZ2211/IIoT_module5/main/savedata_locally.py
    python demo_bme280.py
 ```  
-8.	check if Flask is installed:  ```pip show flask```
-1.	if not, please install flask before continue: ```sudo apt install python3-flask```
-1.	install plotly and pandas (or pip3 if the default is not python3): 
+8.	Check if Flask is installed:  ```pip show flask```
+1.	If not, please install flask before continue: ```sudo apt install python3-flask```
+1.	Install plotly and pandas (or pip3 if the default is not python3): 
   ```
    pip install plotly 
    pip install pandas
