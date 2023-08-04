@@ -50,5 +50,4 @@ Add the following lines to the crontab file:
   @reboot sleep 20 && python /home/pi/IIoT_Case1/LocalSite/localsite.py
   0 0 * * 0 sudo reboot
 19.	Reboot the RPi and now you can access the site use the url: <ip-address>:5000/<sensorID> for the most recent data in plain text display or <ip-address>:5000/<sensorID>/plots. For example, 192.168.1.2:5000/sensor1  or 192.168.1.2:5000/sensor1/plots.
-[Case study 1 Steps short list.pdf](https://github.com/JZ2211/IIoT_Case1/files/12256446/Case.study.1.Steps.short.list.pdf)
 
