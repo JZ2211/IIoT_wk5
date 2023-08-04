@@ -8,7 +8,7 @@ Steps in a short list:
 2.	Verify the system clock synchronization. System clock needs to be synchronized:
   timedatectl
 3.	Check the python version. Requires python 3.7 version or above. Please note the double dash:
-  python –version  
+  python --version  
 4.	Install or update setup tools for python:
   sudo pip3 install --upgrade setuptools
 5.	In order to use CircuitPython, we need to install a library called adafruit_blinka. We can complete it by running the following script:
