@@ -1,7 +1,13 @@
-# create plots for specified sensor data with a download link 
-# 
-# Modified July 2023
-# by Jin Zhu
+"""
+ create plots for specified sensor data with a download link 
+ Function: creat_plots(file_name,sid, html_file)
+         where file_name is the text file that contains sensing data (fields are seperated by comma)
+               sid is the sensor node ID or hostname for th Raspberry Pi
+               html_file the html file that plots will be added
+ 
+ Modified July 2023
+ by Jin Zhu
+"""
 
 import plotly.graph_objects as go   #to install: pip3 install plotly
 from plotly.subplots import make_subplots
