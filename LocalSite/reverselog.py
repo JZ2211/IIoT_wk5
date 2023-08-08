@@ -1,10 +1,12 @@
-# reverse the specified log file lines and
-# save into a temperary rlog.txt file
-# so that the most recent data entries (up to 100)
-# are displayed in reverse chronological order
-#
-# Modified 7/15/2023
-# by Jin Zhu
+"""
+ reverse the specified log file lines and
+ save into a temperary rlog.txt file
+ so that the most recent data entries (up to 100)
+ are displayed in reverse chronological order
+
+ Modified 7/15/2023
+ by Jin Zhu
+"""
 
 from os import path
 import os
