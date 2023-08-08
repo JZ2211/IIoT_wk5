@@ -1,8 +1,11 @@
-# Use Flask to implement a WSGI server
-# to display numerica values obtained in the sensor
-#
-# Modified 7/15/2023
-# by Jin Zhu
+"""
+ Use Flask to implement a WSGI server
+ to display numerica values obtained in the sensor.
+ It also calls creat_plots to provide plot outputs via Plotly. 
+
+ Modified 7/15/2023
+ by Jin Zhu
+"""
 
 from datetime import datetime
 import re
