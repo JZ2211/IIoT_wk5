@@ -1,6 +1,10 @@
-#implementation of BME280/BME680 interfacing with Raspberry Pi
-#data are saved in a file named after the date
-#Jin Zhu created 5/18/2023
+"""
+Implementation of BME280/BME680 interfacing with Raspberry Pi
+data are saved in a log file named after the date 
+when the data are collected
+
+Jin Zhu created 5/18/2023
+"""
 
 import time
 from datetime import datetime
@@ -32,9 +36,7 @@ try:
       humidity = mybme280.humidity  #obtain the relative humidity in percentage        
 
       timestamp = re.sub(' ',', ', timestamp)
-      #timestamp = timestamp.split('.')[0] #omit subseconds time information
       output = timestamp + ", {0:.2f}, {1:.2f}, {2:.2f}".format(temperature, pressure, humidity)
-      #timestamp=timestamp.split('.')[0]
 
       print(output)  #display results in the terminal
       document(output, datatype)  #save data into a local text file
