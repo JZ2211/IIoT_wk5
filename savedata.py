@@ -1,9 +1,14 @@
-# Save sensor data into a file named with hostname and the date information:
-#  hostname_log_yyyy_mm_dd.txt
-#
-# Created 5/18/2023
-# Modified 7/10/2023
-# by Jin Zhu
+"""
+ Save sensor data into a file named with hostname and the date information:
+  hostname_log_yyyy_mm_dd.txt. 
+ Usage:
+  savedata_locally(output, datatype) 
+  where output = timestamp + all the data, datatype = field title headings
+  
+ Created 5/18/2023
+ Modified 7/10/2023
+ by Jin Zhu
+"""
 
 from os import path
 import os
