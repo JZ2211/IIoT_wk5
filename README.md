@@ -49,3 +49,19 @@ Add the following lines to the crontab file:
 ```
 18.	Reboot the RPi and now you can access the site use the url: ```http://<ip-address>:5000/``` for the most recent data in plain text display or ```http://<ip-address>:5000/yyyy-mm-dd``` for data on the date. For example, if the Raspberry Pi IP address is 192.168.1.2, then URL should be 192.168.1.2:5000  or 192.168.1.2:5000/2023-07-28.
 
+## Initial State Example - Steps:
+1. Connect to Raspberry Pi via ssh. Install the Initial State library using:
+    ```pip install ISStreamer```
+2. The example code initState_bme280.py should have been downloaded when you clone the project. If not yet, download the example code:
+```
+wget https://raw.githubusercontent.com/JZ2211/IIoT_wk5/main/initState_bme280.py
+```
+4. Create an account at https://www.initialstate.com/. After you login, click on App Launch and create a stream Bucket. Note the Bucket Key and Access Key for later use.
+6. Modify the Bucket Key and Access Key in the example code using the keys obtain in last step:
+   ``` nano initState_bme280.py```
+   Ctrl-X to exit and save the file.
+1. run the program: ```python initState_bme280.py```. (If the file is under IIoT_wk5 directory, use: ```python IIoT_wk5/initState_bme280.py```
+
+
+
+
