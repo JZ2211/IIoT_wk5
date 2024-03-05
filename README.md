@@ -39,13 +39,13 @@
 1.	Obtain the IP address of the host using ```ifconfig``` or ```hostname -I```, this IP address is the IP address of the Flask web server.
 1.	Check if the example code program works: 
  ```python IIoT_wk5/bme280_example.py```
-1.	Open another ssh terminal, run: 
+1.	Open another ssh terminal, run the following command and verify if it works: 
   ```python IIoT_wk5/LocalSite/localsite.py```
 1.	If it works, setup crontab to run in the background. Run:
   ```crontab -e```
 Add the following lines to the crontab file:
 ```
-  @reboot sleep 10 && python /home/pi/IIoT_wk5/bme280_example.py
+  @reboot sleep 20 && python /home/pi/IIoT_wk5/bme280_example.py
   @reboot sleep 20 && python /home/pi/IIoT_wk5/LocalSite/localsite.py
   0 0 * * 0 sudo reboot
 ```
