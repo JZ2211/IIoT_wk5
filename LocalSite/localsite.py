@@ -15,6 +15,7 @@ import sys
 import os
 import subprocess
 from subprocess import PIPE
+import fileinput
 import broken
 from reverselog import reverselog
 from flask import Flask, render_template, send_file
