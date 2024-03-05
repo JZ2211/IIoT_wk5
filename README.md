@@ -3,7 +3,7 @@
 **Example**
 
 <img src="https://github.com/JZ2211/IIoT_Case1/assets/100505718/ceb4a08b-a487-4068-b82d-bbf9e66196a6" width="600">
-<img src="https://github.com/JZ2211/IIoT_wk5/assets/100505718/b63803f6-0d87-4329-a25b-6c54a59eee4f" width="200">
+<img src="https://github.com/JZ2211/IIoT_wk5/assets/100505718/b63803f6-0d87-4329-a25b-6c54a59eee4f" width="300">
 
 ## Steps in a short list:
 1.	RPi board should have wifi function. Check your RPi board model using command:
