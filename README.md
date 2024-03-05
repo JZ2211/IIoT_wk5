@@ -23,8 +23,8 @@ Example Code
   ```sudo pip install adafruit-circuitpython-bme280```
 7.	Download the example code, connect BME280 to the RPi, and check if it works:
 ```
-   wget https://raw.githubusercontent.com/JZ2211/IIoT_module5/main/demo_bme280.py
-   wget https://raw.githubusercontent.com/JZ2211/IIoT_module5/main/savedata_locally.py
+   wget https://raw.githubusercontent.com/JZ2211/IIoT_wk4/main/demo_bme280.py
+   wget https://raw.githubusercontent.com/JZ2211/IIoT_wk4/main/savedata_locally.py
    python demo_bme280.py
 ```  
 8.	Check if Flask is installed:  ```pip show flask```
