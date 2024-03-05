@@ -33,7 +33,7 @@ Example Code
 ```
    git clone https://github.com/JZ2211/IIoT_wk5.git
 ```
-13.	Please make sure IIoT_wk5 and sub-directories LocalSite and templates has the write permission for the user owner. If not, change the permission using chmod u+w.
+13.	Please make sure IIoT_wk5 and sub-directories LocalSite and templates has the write permission for the user owner. If not, change the permission using ```chmod u+w```.
 1.	Obtain the IP address of the host using ```ifconfig``` or ```hostname -I```, this IP address will be used to access the web server.
 1.	Check if the example code program works: 
  ```python IIoT_wk5/bme280_example.py```
