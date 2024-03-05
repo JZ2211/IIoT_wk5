@@ -13,7 +13,7 @@ Example Code
   ```python --version```  
 1.	Install or update setup tools for python:
   ```sudo pip3 install --upgrade setuptools```
-1.	In order to use CircuitPython, we need to install a library called adafruit_blinka. We can complete it by running the following script. It may take a while to complete the installation. Please be patient. Choose Y to Reboot Now after the installation:
+1.	In order to use CircuitPython, we need to install a library called adafruit_blinka. Please see https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi for details. We can complete it by running the following script. It may take a while to complete the installation. Please be patient. Choose Y to Reboot Now after the installation:
 ```  
     sudo pip3 install --upgrade adafruit-python-shell
     wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
