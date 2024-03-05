@@ -12,7 +12,7 @@ import re
 import sys
 import board
 from adafruit_bme280 import basic as BME280
-from savedata import savedata_locally as document
+from savedata_locally import savedata_locally as document
 ##uncomment next link if upload the data to a remote server via paramiko
 #from savedata import savedata_remotely as upload
 
