@@ -3,6 +3,7 @@
 **Example**
 
 <img src="https://github.com/JZ2211/IIoT_Case1/assets/100505718/ceb4a08b-a487-4068-b82d-bbf9e66196a6" width="600">
+<img src="https://github.com/JZ2211/IIoT_wk5/assets/100505718/b63803f6-0d87-4329-a25b-6c54a59eee4f" width="400">
 
 ## Steps in a short list:
 1.	RPi board should have wifi function. Check your RPi board model using command:
@@ -33,7 +34,7 @@
 ```
    git clone https://github.com/JZ2211/IIoT_wk5.git
 ```
-13.	Please make sure IIoT_wk5 and sub-directories LocalSite and templates has the write permission for the user owner. If not, change the permission using ```chmod u+w directory_or_filename```.
+13.	Please make sure ***IIoT_wk5*** and sub-directories ***LocalSite*** and ***templates*** has the write permission for the user owner. If not, change the permission using ```chmod u+w directory_or_filename```.
 1.	Obtain the IP address of the host using ```ifconfig``` or ```hostname -I```, this IP address will be used to access the web server.
 1.	Check if the example code program works: 
  ```python IIoT_wk5/bme280_example.py```
