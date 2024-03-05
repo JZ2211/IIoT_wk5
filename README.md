@@ -27,7 +27,7 @@
    wget https://raw.githubusercontent.com/JZ2211/IIoT_wk4/main/savedata_locally.py
    python demo_bme280.py
 ```
-<img src="https://github.com/JZ2211/IIoT_wk5/assets/100505718/b63803f6-0d87-4329-a25b-6c54a59eee4f" width="300">
+<img src="https://github.com/JZ2211/IIoT_wk5/assets/100505718/b63803f6-0d87-4329-a25b-6c54a59eee4f" width="400">
 
 8.	Check if Flask is installed:  ```pip show flask```
 1.	If not, please install flask before continue: ```sudo apt install python3-flask```
