@@ -29,30 +29,23 @@ Example Code
 ```  
 8.	Check if Flask is installed:  ```pip show flask```
 1.	If not, please install flask before continue: ```sudo apt install python3-flask```
-1.	Install plotly and pandas (or pip3 if the default is not python3): 
-  ```
-   pip install plotly 
-   pip install pandas
+1.	Download the example code from github in the Raspberry Pi (assume to the home directory /home/pi/):
 ```
-11.	If there is an error to import pandas: ```libf77blas.so.3: cannot open shared object file: No such file or directory.``` Please run (See reference at: https://numpy.org/devdocs/user/troubleshooting-importerror.html): 
-  ```sudo apt-get install libatlas-base-dev```
-1.	Download case1 package from github in the Raspberry Pi (assume to the home directory /home/pi/):
+   git clone https://github.com/JZ2211/IIoT_wk5.git
 ```
-   git clone https://github.com/JZ2211/IIoT_Case1.git
-```
-13.	Please make sure IIoT_Case1 and sub-directories LocalSite and templates has the write permission for the user owner. If not, change the permission using chmod u+w.
+13.	Please make sure IIoT_wk5 and sub-directories LocalSite and templates has the write permission for the user owner. If not, change the permission using chmod u+w.
 1.	Obtain the IP address of the host using ```ifconfig``` or ```hostname -I```, this IP address will be used to access the web server.
 1.	Check if the example code program works: 
- ```python IIoT_Case1/bme280_example.py```
+ ```python IIoT_wk5/bme280_example.py```
 1.	Open another ssh terminal, run: 
-  ```python IIoT_Case1/LocalSite/localsite.py```
+  ```python IIoT_wk5/LocalSite/localsite.py```
 1.	If it works, setup crontab to run in the background. Run:
   ```crontab -e```
 Add the following lines to the crontab file:
 ```
-  @reboot sleep 10 && python /home/pi/IIoT_Case1/bme280_example.py
-  @reboot sleep 20 && python /home/pi/IIoT_Case1/LocalSite/localsite.py
+  @reboot sleep 10 && python /home/pi/IIoT_wk5/bme280_example.py
+  @reboot sleep 20 && python /home/pi/IIoT_wk5/LocalSite/localsite.py
   0 0 * * 0 sudo reboot
 ```
-18.	Reboot the RPi and now you can access the site use the url: ```http://<ip-address>:5000/<sensorID>``` for the most recent data in plain text display or ```http://<ip-address>:5000/<sensorID>/plots``` for plots. For example, 192.168.1.2:5000/sensor1  or 192.168.1.2:5000/sensor1/plots.
+18.	Reboot the RPi and now you can access the site use the url: ```http://<ip-address>:5000/``` for the most recent data in plain text display or ```http://<ip-address>:5000/yyyy-mm-dd``` for data on the date. For example, 192.168.1.2:5000  or 192.168.1.2:5000/2023-07-28.
 
