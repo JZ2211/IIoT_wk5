@@ -20,7 +20,6 @@ def reverselog(logfile_name):
        with open('rlog.txt','a') as f2:
           lines = f1.readlines()
           reversedlines=lines[::-1]
-          if full==False :
           if len(reversedlines)>100:
               f2.writelines(reversedlines[0:99])
           else:
