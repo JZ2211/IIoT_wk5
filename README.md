@@ -1,6 +1,6 @@
 # IIoT Workshop - Week 5
 ## Project: Implementation of a Flask Web Server for a simple IoT Application
-Example
+**Example**
 
 <img src="https://github.com/JZ2211/IIoT_Case1/assets/100505718/ceb4a08b-a487-4068-b82d-bbf9e66196a6" width="600">
 
@@ -56,8 +56,8 @@ Add the following lines to the crontab file:
 ```
 wget https://raw.githubusercontent.com/JZ2211/IIoT_wk5/main/initState_bme280.py
 ```
-4. Create an account at https://www.initialstate.com/. After you login, click on App Launch and create a stream Bucket. Note the Bucket Key and Access Key for later use.
-6. Modify the Bucket Key and Access Key in the example code using the keys obtain in last step:
+4. Create an account at https://www.initialstate.com/. After you login, click on App Launch and create a stream Bucket. Note the **Bucket Key** and **Access Key** for later use.
+6. Modify the Bucket Key and Access Key at the top of the example code using the keys obtain in last step:
    ``` nano initState_bme280.py```
    Ctrl-X to exit and save the file.
 1. run the program: ```python initState_bme280.py```. (If the file is under IIoT_wk5 directory, use: ```python IIoT_wk5/initState_bme280.py```
