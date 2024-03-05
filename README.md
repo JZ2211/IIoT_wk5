@@ -21,7 +21,7 @@ Example Code
 ```
 6.	Install BME280 library using command: 
   ```sudo pip install adafruit-circuitpython-bme280```
-7.	Download the example code, connect BME280 to the RPi, and check if it works:
+7.	Download the example code, connect BME280 to the RPi, and check if it works (Week 4 contents):
 ```
    wget https://raw.githubusercontent.com/JZ2211/IIoT_wk4/main/demo_bme280.py
    wget https://raw.githubusercontent.com/JZ2211/IIoT_wk4/main/savedata_locally.py
