@@ -60,7 +60,7 @@ wget https://raw.githubusercontent.com/JZ2211/IIoT_wk5/main/initState_bme280.py
 6. Modify the Bucket Key and Access Key at the top of the example code using the keys obtain in last step:
    ``` nano initState_bme280.py```
    Ctrl-X to exit and save the file.
-1. run the program: ```python initState_bme280.py```. (If the file is under IIoT_wk5 directory, use: ```python IIoT_wk5/initState_bme280.py```
+1. run the program: ```python initState_bme280.py```. (If the file is under *IIoT_wk5* directory, use: ```python IIoT_wk5/initState_bme280.py```
 
 
 
